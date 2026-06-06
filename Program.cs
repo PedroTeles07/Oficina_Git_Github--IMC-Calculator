@@ -12,3 +12,16 @@ double imc = 0;
 imc = peso/(altura * altura);
 
 Console.WriteLine($"O IMC de {nome} é igual a {imc:f2}");
+
+if(imc < 18.5)
+{
+    Console.WriteLine("Você esta abaixo do peso!");
+}
+else if(imc >= 18.5 && imc < 25)
+{
+    Console.WriteLine("Você esta no peso ideal!");
+}
+else
+{
+    Console.WriteLine("Você esta acima do peso!");
+}
