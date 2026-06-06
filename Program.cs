@@ -11,4 +11,4 @@ double imc = 0;
 
 imc = peso/(altura * altura);
 
-Console.WriteLine($"Seu IMC é igual a {imc}");
+Console.WriteLine($"O IMC de {nome} é igual a {imc}");
